@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-console.log(process.env)
+console.log(process.env.DB_CONNECT)
 
 const dbConnection = async() => {
     try {
